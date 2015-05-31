@@ -25,13 +25,13 @@
     make Ind available as a proper browser extension. For now, you'll
     probably want to download the code (ind.js, ind.css) and host it
     someplace you trust (like a server running on your local machine).
-    If for some reason you want to load Ind from my server, you can
+    If for some reason you want to load Ind from my gh-pages, you may
     do so by using the following as your bookmark's URL:
 
       javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://kndyry.github.io/ind/ind.js';})();
 
     If you're running Ind from your own server, substitute my address
-    with your own in the src assignment.
+    with your own in the src assignment and in this file.
 
 
     Activating:
